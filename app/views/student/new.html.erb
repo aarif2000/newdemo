@@ -1,0 +1,9 @@
+<h3>Create a Dog</h3>
+<%= form_with model: @students do |form| %>
+  <%= form.text_field :name, placeholder: "name" %>
+  <%= form.text_field :age, placeholder: "age" %>
+  <%= form.text_field :roll_no, placeholder: "roll no" %>
+  <%= form.text_field :city, placeholder: "city" %>
+
+  <%= form.submit %>
+<% end %>
